@@ -135,6 +135,8 @@ footer {
   justify-self: center;
   align-self: center;
   border-radius: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
 }
 .header__title {
   font-size: 1.6em;
@@ -228,7 +230,11 @@ footer {
     margin: 1em 80%;
   }
 }
-
+.video-player {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/10;
+}
 /* UTILITIES */
 .text-accent {
   color: var(--color-accent);
